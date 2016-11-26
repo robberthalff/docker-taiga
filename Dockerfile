@@ -1,6 +1,8 @@
 FROM python:3.4
 MAINTAINER Benjamin Hutchins <ben@hutchins.co>
 
+ENV DEBIAN_FRONTEND noninteractive
+
 # Install nginx
 ENV NGINX_VERSION 1.9.7-1~jessie
 
